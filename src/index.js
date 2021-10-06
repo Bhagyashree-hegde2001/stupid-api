@@ -5,7 +5,6 @@ const path = require("path");
 const cors = require("cors");
 
 const DATA = fs.readFileSync(path.join(__dirname, "./data.json"), "utf-8");
-console.log("DATA: ", DATA);
 
 const App = express();
 
